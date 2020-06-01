@@ -1,4 +1,4 @@
-## Welcome to my GitHub Page
+# Welcome to my GitHub Page
 
 Information about projects that i am working on.
 
