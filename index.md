@@ -1,40 +1,32 @@
 ## Welcome to my GitHub Page
 
-You can use the [editor on GitHub](https://github.com/thorleifurb/thorleifurb.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Information about projects that i am working on.
 
-### Markdown
+## StaffLocation
+Project that I use for research on Integration Platform / API Management tool and / JS Frontend.
+All components in project are Open Source except Microsoft SQL server Express that is used for database.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Project source is not public or intended as open source, so repository is not visible on my GitHub profile.
 
+### Description
+Front end client that displays statistics about how much time / distance a given workplace would earn or lose on single workday if the workplace was located elsewhere.
+The client can also compare time from given point on map to (a) current workplace and (b) propose workplace.
+The client shows calculations based on driving, walking and cycling profiles provided by used routing machine.
 
+### Components used
+* Vue JS
+* Vuetify 
+* Openstreetmap
+* Leaflet JS
+* OSRM routing machine
+* WSO2 Data Service Server
+* WSO2 API Management Server
+* Microsoft SQL Express Database
 
-# Header 1
-## Header 2
-### Header 3
+### Architecural Decision Log
+[The archtectual decision log for the project is made public here.](/docs/adr/index)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thorleifurb/thorleifurb.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-### My Blog
-
+## My Blog
 <ul>
   {% for post in site.posts %}
     <li>
