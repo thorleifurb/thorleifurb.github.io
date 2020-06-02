@@ -75,3 +75,12 @@ If product was intended for production we must add in our decision conideration 
 ## Links
 
 * Reference [compare of `Google maps` vs `Openstreetmap` from similartech](https://www.similartech.com/compare/google-maps-vs-openstreetmap)
+
+<hr>
+
+Template: Licence [CC0](https://creativecommons.org/share-your-work/public-domain/cc0),
+provided by [Architectural Decision Records](https://github.com/adr/madr)
+
+<hr>
+
+Content of decision: Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.
