@@ -9,13 +9,13 @@ All components in used in project are Open Source except Microsoft SQL server Ex
 Project source is not public or intended as open source, so repository is not visible on my GitHub profile. Intrested parties can send request for further information.
 
 ### Description and purpose
-Front end client that displays statistics about how much time / distance a given workplace employees would earn/lose on single workday, given that the workplace was located elsewhere in the neigbourhood.
+Front end client that displays statistics about how much time/distance a given workplace employees would earn/lose on single workday, given that the workplace was located elsewhere in the neigbourhood.
 
 The front end client can also compare time from given point on map to (a) current workplace and (b) propose workplace.
 The client shows all calculations based on driving, walking and cycling profiles provided by used routing machine.
 
 The thought is that all things are optimized for minimal cost but not necessary for employees. Why not try to optimize location of business to save employees valuable time in transportation. Optimal location can also save a lot of Co2 emission in employee car usage.
-If Business location does not require a walk in office for customers, this should of course be considered.
+If business location does not require a walk in office for customers, this should of course be considered when deciding location.
 
 ### Components used
 * Vue JS
@@ -38,3 +38,7 @@ If Business location does not require a walk in office for customers, this shoul
     </li>
   {% endfor %}
 </ul>
+
+<hr>
+
+Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.
