@@ -6,8 +6,8 @@
 
 Technical Story: Implementation of web client with map interface for viewing and analyzing traffic cost (time/distance) for defined group of people based on workplace location. 
 We need map and routing engine to both provide the following:
-*calculation of time and distance between two addresses.
-*drawing of route between two addresses. 
+* calculation of time and distance between two addresses.
+* drawing of route between two addresses. 
 
 ## Context and Problem Statement
 
