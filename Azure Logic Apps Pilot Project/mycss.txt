@@ -1,0 +1,346 @@
+
+/* Custom styles for Confluence (included for all themes by default) */
+
+/*****************************************************
+** PUT SPACE SPECIFIC STYLING HERE (NOT AT BOTTOM)  
+***************************************************/
+
+#children-section
+{
+  display     : none;
+}
+
+#comments-section
+{
+  /*display     : none;*/
+}
+
+#navigation ul.ajs-menu-bar 
+{
+  opacity       : 0.5;
+}
+/*************************************************** 
+** ATTACHMENTS FILENAME COLUMN OVERIDE (optional) 
+***************************************************/  
+#view-attachments .filename-column  
+{  
+  width:250px  
+}  
+  
+/***************************************************
+** SCROLL VERSIONS OVERIDES 
+***************************************************/
+
+#labels-section 
+{
+  margin        : 0;
+  padding       : 0;
+  border        : none;
+}
+
+/***************************************************
+** DOC THEME SPLITTER OVERIDES 
+***************************************************/
+
+#splitter-sidebar
+{
+ background-color: #F5F5F5;
+ background-image: none;
+}
+
+#splitter .vsplitbar
+{
+  background-color: white;
+  border-left     : 1px solid #DDD;
+}
+
+/***************************************************
+** ATLASSIAN DOCUMENTATION THEME 
+***************************************************/
+
+#main 
+{
+  background    : white;
+}
+
+p,
+body,
+.bodytext, 
+.stepfield, 
+.panelContent,
+.wiki-content p 
+{
+  background    : transparent;
+}
+
+p,
+tr, 
+td,
+body, 
+table, 
+.bodytext, 
+.stepfield, 
+.panelContent,
+.wiki-content p
+{
+  color         : #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3
+{
+  color         : #333;
+  font-weight   : normal;
+}
+
+.wiki-content h4,
+.wiki-content h5,
+.wiki-content h6 
+{
+  color         : #333;
+}
+
+/***************************************************
+** CONFLUENCE HEADER
+***************************************************/
+
+#browse-menu-link
+{
+  opacity       : 0;
+}
+
+#browse-menu-link:hover
+{
+  opacity       : 1;
+}
+
+/***************************************************
+** THEME HEADER & FOOTER
+** (e.g. info panel used for doc versions) 
+***************************************************/
+
+#theme-header, 
+#theme-footer 
+{
+  margin        : 30px auto 0px;
+  width         : 990px;
+  text-align    : center;
+}
+
+#theme-footer 
+{
+  margin        : 30px auto 50px;
+}
+
+#theme-header .sectionMacro td,
+#theme-footer .sectionMacro td 
+{
+  text-align    : center;
+}
+.panel {
+  border-color: #BBB;
+}
+/***************************************************
+** MAIN 
+***************************************************/
+
+body#tinymce.fullsize, 
+#main 
+{
+  margin        : 0 auto;
+  width         : 940px;
+  border        : 0;
+  padding       : 20px;
+  min-height    : 40em;
+ }
+
+/***************************************************
+** MAIN HEADER 
+***************************************************/
+
+#main-header 
+{
+  margin        : 40px 0 0;
+}
+
+#breadcrumb-section
+{
+  margin-bottom : 20px;
+}
+
+#breadcrumbs li,
+#breadcrumbs li a
+{
+  color         : #999;
+}
+
+#title-heading img
+{
+  display       : none;
+}
+
+#title-text 
+{
+  font-family   : sans-serif;
+  font-weight   : 300;
+  font-size     : 50px;
+  line-height   : 75px;
+}
+
+#title-text a  
+{
+  color         : #3B73AF !important;
+}
+
+#navigation ul.ajs-menu-bar:hover 
+{
+  opacity       : 1.0;
+}
+
+.page-metadata 
+{
+  opacity       : 0;
+  margin        : 0 0 30px;
+}
+
+.page-metadata:hover 
+{
+  opacity       : 1.0;
+}
+
+#browse-menu-link,
+#navigation ul.ajs-menu-bar,
+.page-metadata 
+{
+  transition         : opacity .25s ease-in-out;
+  -moz-transition    : opacity .25s ease-in-out;
+  -webkit-transition : opacity .25s ease-in-out;
+}
+
+/***************************************************
+** CONTENT 
+***************************************************/
+
+#content 
+{
+  margin-right  : 0 !important;
+}
+
+/***************************************************
+** PERSONAL INFO SIDEBAR 
+***************************************************/
+
+#personal-info-sidebar 
+{
+  display       : none;
+}
+
+/***************************************************
+** LIKES & LABELS 
+***************************************************/
+
+#likes-and-labels-container 
+{
+  margin        : 50px 0;
+  border-top    : 1px solid #DDD;
+  border-bottom : 1px solid #DDD;
+}
+
+/***************************************************
+** CHILDREN SECTION
+***************************************************/
+
+#children-section
+{
+  margin-bottom : 50px;
+}
+
+/***************************************************
+** WIKI-CONTENT 
+***************************************************/
+
+.wiki-content 
+{
+  font-family   : sans-serif;
+  line-height   : 25px;
+}
+
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4,
+.wiki-content h5,
+.wiki-content h6 
+{ 
+  padding       : 10px 0;
+  border        : none;
+}
+
+.wiki-content img.emoticon 
+{
+  vertical-align: text-top;
+}
+
+.wiki-content a:link 
+{
+  text-decoration: none;
+}
+
+.wiki-content p 
+{
+  line-height   : 25px;
+  color         : #333;
+  font-weight   : normal;
+}
+
+.wiki-content p,
+.wiki-content ul, 
+.wiki-content ol,
+.wiki-content table
+{
+  margin        : 0 0 10px;
+}
+
+.wiki-content .aui-message
+{
+  margin        : 10px 0 20px;
+}
+
+.wiki-content li 
+{
+  line-height   : 25px;
+}
+
+.wiki-content .confluence-content-image-border 
+{
+  border        : 1px solid #999;
+}
+
+.wiki-content .wysiwyg-macro-body > pre 
+{
+  word-break    : break-all;
+}
+
+/***************************************************
+** SIDEBAR
+***************************************************/ 
+
+#splitter-sidebar > p:first-child a,
+#splitter-sidebar > h2:first-child a
+{
+  font-family   : sans-serif;
+  font-weight   : 400;
+  color         : #3b73af !important;
+  font-size     : 20px;
+  display       : inline-block;
+  padding       : 15px 0 5px 3px;
+}
+
+/***************************************************
+** FONTS 
+***************************************************/
+
+
+/* End custom styles for Confluence */
