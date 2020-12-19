@@ -390,7 +390,7 @@ We only want to terminate instance as 'Cancelled' if "Status Code" from `Signet`
 ![logic-we-scheduler-signet-signed-to-sf-terminate-400-part-2.png](images/logic-we-scheduler-signet-signed-to-sf-terminate-400-part-2.png)
 
 # Wrap up
-Azure integration services are excelent in solving problem like this. There is great option to connect to other Cloud products like Office, Outlook og Dynamics Nav.
+Azure integration services are excelent in solving problem like this. There is great option to connect to other cloud products like Office, Outlook og Dynamics Nav.
 There is also good option to connect to on premise databases and systems with usage of Azure On-Premise Data Gateway.
 At Advania we are advising our customers to look at this option in theyr integration needs.
 
