@@ -1,11 +1,10 @@
 # Integration between Salesforce and Signet with Azure Integration Services
-> Þorleifur Bjarnason
+> Written by Þorleifur Bjarnason, Advania.
 
 <font size="1">Estimated reading tíme 30 to 40 minutes.</font> 
 
 
-In this project we integrate `Salesforce` and `Signet` using *`Microsoft Azure Integration Services`*. 
-
+In this project us at [Advania](www.advania.is) integrate `Salesforce` and `Signet` using *`Microsoft Azure Integration Services`*. 
 The goal of the project is to use Azure Integration Platform to integrate systems. Similar to processes that we have implemented with dedicated on premise integration tools from other vendors.
 
 ## Azure Integration Tools
@@ -17,12 +16,19 @@ We look briefly into purpose of each tool later in this document, but further in
 `*Event Grid*` is not used in this project.
 
 ## Definition on project, electronic signature on commute contract. 
-In the project we define the following process between `Salesforce`and`Signet`.
-`Salesforce` user creates commute contract as card in `Salesforce` by filling out form. By doing that we start integration process in Azure that:
+`Signet` is service provided by Advania to sign documents with electronic certification on SIM cards in phones. Users can upload document and ask individuals to signe them electonically.
+[Further information about `Signet` can be found here](https://signet.is/en/).
+
+Commute contract is a contract between employer and employee, confirming that employee will use other means of commute than personal car to work. 
+It's purpose is both to save parking spaces for companies and also for environmentional and health purpose.
+
+In the project we define the following process between `Salesforce` and `Signet`, where `Salesforce` is used to create and store commute contracts. `Signet` is used for employee to sign the contract with phone and electronic certifcate.
+
+In `Salesforce` user creates commute contract as card in `Salesforce` by filling out form. By doing that we start integration process in Azure that:
 * Creates PDF document with commute contract. 
 * Sends PDF document to signature in `Signet`. 
 
-When commute contract is signed in `Signet`, we start integration process in Azure that:
+When commute contract is signed by employee in `Signet`, we start integration process in Azure that:
 * Puts signed PDF as attachment on the card with commute contract.
 
 ### Overview.
@@ -383,6 +389,10 @@ We only want to terminate instance as 'Cancelled' if "Status Code" from `Signet`
 
 ![logic-we-scheduler-signet-signed-to-sf-terminate-400-part-2.png](images/logic-we-scheduler-signet-signed-to-sf-terminate-400-part-2.png)
 
+# Wrap up
+Azure integration services are excelent in solving problem like this. There is great option to connect to other Cloud products like Office, Outlook og Dynamics Nav.
+There is also good option to connect to on premise databases and systems with usage of Azure On-Premise Data Gateway.
+At Advania we are advising our customers to look at this option in theyr integration needs.
 
 > published 23.11.2020, Þorleifur Bjarnason.
 

@@ -1,1 +1,1 @@
-# Images used in design document
+# Images used in Azure Integration Services project

@@ -231,7 +231,7 @@ PDF skjal er síðan útbúið með því að kalla á `Logic App` (**logic-pub-
 
 Að síðustu er PDF skjalið sent til `Signet` til undirritunar. Þar sem við útbjuggum ekki tengil eins og lýst er í leið 4 um `Signet` tengingu hér að ofan, þá hjúpuðum við kallið á `AddDocument` með `Logic App` (**logic-we-signet-adddocument**). Sjá nánar í upplýsingum um leið 3 í kaflanum um `Signet` tengingu hér að ofan.
 
-![logic-we-trigger-sf-to-signet-signing.png](images/logic-we-trigger-sf-to-signet-signing.png)
+![logic-we-trigger-sf-to-signet-signing.png](images/logic-we-trigger-sf-to-signet-signing-is.png)
 
 Sem samantekt, þá er þetta ferli í rauninni 3 meginskref, sem við skulum skoða hvert fyrir sig.
 
@@ -242,17 +242,17 @@ Ræsirinn (e: trigger) á `Logic App` er að útbúinn er ný færsla í `Salesf
 
 Í framhaldinu er flett upp í Account töflu `Salesforce` upplýsingum um bæði starfsmann og mannauðsstjóra í tveimur skrefum. Inntakið í uppflettinguna, eru tekið úr gögnunum sem komu með samgöngusamningum sem ræsti ferlið. í samgöngusamningnum er svæði sem heitir Starfsmaður og svæði sem heitir Mannauðsstjóri sem innihalda tilvísun á Account færslur viðkomandi aðila.
 
-![logic-we-trigger-sf-to-signet-signing-salesforce.png](images/logic-we-trigger-sf-to-signet-signing-salesforce.png)
+![logic-we-trigger-sf-to-signet-signing-salesforce.png](images/logic-we-trigger-sf-to-signet-signing-salesforce-is.png)
 
 ### Útbúa PDF
 Samgöngusamningurinn í `Salesforce` inniheldur ekki PDF skjal til undirritunar. Í þessu skrefi nýtum við okkur þjónustu sem við höfum skrifað í öðru platformi til að framleiða PDF. Sem hluta af þessari innleiðingu skoðuðum við að flytja þá virkni í Azure sem Azure Function. Í ljós kom að það ætti að vera gerlegt, en kostaði örlítið meiri vinnu en við vorum tilbúnir að leggja í að þessu sinni. Við tókum því þá ákvörðun að kalla á þjónustuna þar sem hún er hýst núna og bíða aðeins með að Azure Function aðferðina. 
 Í raun er þetta bara REST þjónusta sem tekur við upplýsingum úr samgöngusamningnum og framleiðir frekar hrátt PDF skjal til að undirrita.
 
-![logic-we-trigger-sf-to-signet-signing-pdf.png](images/logic-we-trigger-sf-to-signet-signing-pdf.png)
+![logic-we-trigger-sf-to-signet-signing-pdf.png](images/logic-we-trigger-sf-to-signet-signing-pdf-is.png)
 
 Í skrefinu útbúum við JSON hlut sem heitir `PDFFields`, í svæðin vísum víð síðan í breytur úr `Salesforce` skrefunum sem búið var að útfæra. Sem dæmi þá er breytan empname í `PDFFields` sett sem gildið á Account Name úr `Salesforce` skrefinu GetRecord (Starfsmaður), sjá mynd.
 
-![logic-we-trigger-sf-to-signet-signing-pdf-account-name.png](images/logic-we-trigger-sf-to-signet-signing-pdf-account-name.png)
+![logic-we-trigger-sf-to-signet-signing-pdf-account-name.png](images/logic-we-trigger-sf-to-signet-signing-pdf-account-name-is.png)
 
 Þessi `PDFFields` eru síðan inntak í **logic-pub-create-pdf** sem hjúpar REST þjónustuna sem til að búa til PDF skjal. 
 
@@ -270,7 +270,7 @@ Takið eftir lásnum á skrefunum sem að sækja aðgangsupplýsingar. Við setj
 Sjá nánari upplýsingar á https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-securing-a-logic-app og sér í lagi kaflann um "Secure data in run history by using obfuscation". 
 Það er hægt að setja þessar stillingar á hvaða skref sem er. Það þýðir að ef þjónustur sem verið er að kalla í `Logic App` skila viðkvæmum persónuupplýsinum, getum við tryggt að þær verði ekki skráðar niður með læsilegum hætti.
 
-![logic-we-trigger-sf-to-signet-signing-signet.png](images/logic-we-trigger-sf-to-signet-signing-signet.png)
+![logic-we-trigger-sf-to-signet-signing-signet.png](images/logic-we-trigger-sf-to-signet-signing-signet-is.png)
 
 Á sama hátt og í skrefunum sem gerðu PDF skjalið, þá setjum við JSON hlut `Document Info` samkvæmt skjölun frá `Signet` með öllum upplýsingum sem þarf til þess að setja inn skjal til undirritunar.
 
