@@ -1,4 +1,4 @@
-theme: minima
+theme: jekyll-theme-minimal
 include: README.md
 url: https://thorleifurb.github.io
 baseurl: /
