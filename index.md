@@ -4,9 +4,9 @@ Information about projects that I have been working on and want to share informa
 
 ## Azure Integration Services
 Project using Azure Integration services for integration tasks between systems.
-[Integration between Salesforce and Signet with Azure Integration Services]Azure%20Logic%20Apps%20Pilot%20Project)
+[Integration between Salesforce and Signet with Azure Integration Services](Azure%20Logic%20Apps%20Pilot%20Project)
 
-[Integration between Salesforce and Signet with Azure Integration Services]https://github.com/thorleifurb/thorleifurb.github.io/blob/master/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
+[Integration between Salesforce and Signet with Azure Integration Services](https://github.com/thorleifurb/thorleifurb.github.io/blob/master/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
 
 ## StaffLocation
 Project that used for research on Integration Platform / API Management tool / JS Frontend.
