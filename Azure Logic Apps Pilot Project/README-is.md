@@ -33,13 +33,13 @@ Við förum lauslega yfir hlutverkin hér á eftir, en hægt er að kynna sér n
 ### Yfirlitsmynd.
 Myndin hér að neðan sýnir hringinn sem samgöngusamningurinn fer á milli `Salesforce` og `Signet`
 
-![overview](images/salesforce-signet-overview.png)
+![overview](images/salesforce-signet-overview-is.png)
 
 ### Yfirlitsmynd (BPMN2).
 Ferlið sem Azure samþættingartólinu er ætlað að leysa í þessu verkefni má einnig teikna upp með BPMN2 sniði. BPMN2 er það snið sem viðskiptaferlar (business processes) eru hannaðir í. Mörg samþættingartól nýta BPMN2 einnig varðandi útfærslur á keyrslum viðskiptaferla. 
 Myndin hér að neðan sýnir ferlið teiknað með BPMN2 sniði, og tengipunktar við endakerfin sýnd sem punktalínur.
 
-![overview BPMN](images/salesforce-signet-overview-BPMN.png)
+![overview BPMN](images/salesforce-signet-overview-BPMN-is.png)
 
 ## Um útfærslu verkefnisins
 
