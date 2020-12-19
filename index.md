@@ -30,6 +30,10 @@ If business location does not require a walk in office for customers, this shoul
 ### Architecural Decision Log
 [The archtectual decision log for the project is made public here.](/docs/adr/index.md)
 
+## Usage of Azure Integration Services
+
+[test](/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
+
 ## My Blog
 <ul>
   {% for post in site.posts %}
