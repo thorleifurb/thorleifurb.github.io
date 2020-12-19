@@ -28,7 +28,7 @@ If business location does not require a walk in office for customers, this shoul
 * Microsoft SQL Express Database
 
 ### Architecural Decision Log
-[The archtectual decision log for the project is made public here.](/docs/adr/index)
+[The archtectual decision log for the project is made public here.](/docs/adr/index.md)
 
 ## My Blog
 <ul>
