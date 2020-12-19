@@ -1,6 +1,12 @@
 # Welcome to my GitHub Page
 
-Information about projects that i am working on.
+Information about projects that I have been working on and want to share information about.
+
+## Azure Integration Services
+Project using Azure Integration services for integration tasks between systems.
+[Integration between Salesforce and Signet with Azure Integration Services]Azure%20Logic%20Apps%20Pilot%20Project)
+
+[Integration between Salesforce and Signet with Azure Integration Services]https://github.com/thorleifurb/thorleifurb.github.io/blob/master/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
 
 ## StaffLocation
 Project that used for research on Integration Platform / API Management tool / JS Frontend.
@@ -29,10 +35,6 @@ If business location does not require a walk in office for customers, this shoul
 
 ### Architecural Decision Log
 [The archtectual decision log for the project is made public here.](/docs/adr/index.md)
-
-## Usage of Azure Integration Services
-
-[test](/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
 
 ## My Blog
 <ul>
