@@ -1,5 +1,3 @@
-<link href="http://github.com/yrgoldteeth/darkdowncss/raw/master/darkdown.css" rel="stylesheet"></link> 
-
 # Integration between Salesforce and Signet with Azure Integration Services
 > Þorleifur Bjarnason
 
