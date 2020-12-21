@@ -1,0 +1,61 @@
+---
+---
+
+//---- Override standart Cayman Theme variables
+
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
+
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #159957 !default;
+$header-bg-color-secondary: #200200 !default;
+
+$header-heading-color: #fff !default;
+// $header-bg-color: #159957 !default;
+// $header-bg-color-secondary: #155799 !default;
+
+// Text
+$section-headings-color: #24292e;
+$body-text-color: #24292e !default;
+$body-link-color: #0366d6 !default;
+$blockquote-text-color: #819198 !default;
+
+// Code
+$code-bg-color: rgba(27,31,35,0.05) !default;
+$code-text-color: #24292e !default;
+
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+//---- Import current theme
+
+@import "{{ site.theme }}";
+
+// ---- Override other classes
+
+.main-content {
+  font-family : Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  h1 {
+   color: #300300;
+   font-weight: 600;
+  }
+
+  h2 {
+   color: #300300;
+   font-weight: 600;
+  }
+  
+  
+  h3 {
+   color: #300300;
+   font-weight: 600;
+  }
+  
+  code {
+    font-family   : SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 
+  }
+}

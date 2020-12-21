@@ -5,6 +5,8 @@ Information about projects that I have been working on and want to share informa
 ## Azure Integration Services
 Projects using Azure Integration services for integration tasks between systems.
 
+[Integration between Salesforce and Signet with Azure Integration Services](/Azure%20Logic%20Apps%20Pilot%20Project/)
+
 [Integration between Salesforce and Signet with Azure Integration Services](https://github.com/thorleifurb/thorleifurb.github.io/blob/master/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
 
 ## StaffLocation
@@ -20,7 +22,7 @@ The front end client can also compare time from given point on map to (a) curren
 The client shows all calculations based on driving, walking and cycling profiles provided by used routing machine.
 
 The thought is that all things are optimized for minimal cost but not necessary for employees. Why not try to optimize location of business to save employees valuable time in transportation. Optimal location can also save a lot of Co2 emission in employee car usage.
-If business location does not require a walk in office for customers, this should of course be considered when deciding location.
+If business location does not require a walk in office for customers, this should of course be considered when deciding optimal location.
 
 ### Components used
 * Vue JS
