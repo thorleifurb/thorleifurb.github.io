@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 url: https://thorleifurb.github.io
 baseurl: /
+github:
+  is_project_page: true
