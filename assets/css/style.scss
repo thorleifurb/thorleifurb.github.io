@@ -31,11 +31,71 @@ $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
 $hr-border-color: #eff0f1 !default;
 
-//---- Import current theme
+// Override Hamburger menu
+$hamburger-size: 40px !default;
 
+//---- Import hamburger menu
+@import "base";
+@import "animations/criss-cross";
+
+//---- Import current theme
 @import "{{ site.theme }}";
 
 // ---- Override other classes
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include large {
+    padding: 0.25rem 0.25rem;
+  }
+
+  @include medium {
+    padding: 0.25rem 2.25rem;
+  }
+
+  @include small {
+    padding: 0rem 0rem;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+
+  @include large {
+    font-size: 2.25rem;
+  }
+
+  @include medium {
+    font-size: 1.25rem;
+  }
+
+  @include small {
+    font-size: 0.75rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: normal;
+  opacity: 0.7;
+
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
 
 .main-content {
   font-family : Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
@@ -59,3 +119,60 @@ $hr-border-color: #eff0f1 !default;
     font-family   : SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; 
   }
 }
+
+/* Button-large-only */
+
+.hide-small {
+	@include small {
+		display: none;
+	}
+}
+
+/* Hamburger position */ 
+.hamburger-position {
+	position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.no-margin {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  
+  +.no-margin {
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 65px;
+  right: 12px;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, #195E35, $header-bg-color);
+  min-width: 160px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  // color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(255, 255, 255, 0.2);}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
