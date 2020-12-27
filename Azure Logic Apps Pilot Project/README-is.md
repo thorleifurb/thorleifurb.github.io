@@ -1,7 +1,5 @@
-<link href="http://github.com/yrgoldteeth/darkdowncss/raw/master/darkdown.css" rel="stylesheet"></link> 
-
 # Samþætting milli Salesforce og Signet með Azure Integration Services
-> Þorleifur Bjarnason
+> Skrifað af Þorleifi Bjarnasyni, Advania.
 
 <font size="1">Áætlaður lestrartími 30 til 40 mínútur.</font> 
 
@@ -445,5 +443,5 @@ Við skoðuðum líka að tengjast `SQL Server` gagnagrunni sem var hýstur hjá
 
 Okkur grunar samt að við stærri samþættingar, þurfi að grípa til annarskonar verkfæra samhliða, til að ná sambærilegum afköstum fyrir forritar og með öðrum tólum sem við höfum notað.
 
-> Birt 23.11.2020, Þorleifur Bjarnason.
-
+> Birt 23.11.2020, Þorleifur Bjarnason.  
+> Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.

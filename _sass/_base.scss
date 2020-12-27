@@ -28,9 +28,6 @@ div.#{$hamburger-class-name} {
     background-color: $hamburger-background;
     border: $hamburger-border-width $hamburger-border-color solid;
     border-radius: $hamburger-border-radius;
-	position: fixed;
-    top: 12px;
-    right: 12px;
     color: inherit;
     cursor: pointer;
     display: inline-block;

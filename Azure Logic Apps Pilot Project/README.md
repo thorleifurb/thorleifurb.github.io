@@ -394,5 +394,6 @@ Azure integration services are excelent in solving problem like this. There is g
 There is also good option to connect to on premise databases and systems with usage of Azure On-Premise Data Gateway.
 At Advania we are advising our customers to look at this option in theyr integration needs.
 
-> published 23.11.2020, Þorleifur Bjarnason.
+> Published 23.11.2020, Þorleifur Bjarnason.  
+> Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.
 

@@ -3,26 +3,28 @@
 Information about projects that I have been working on and want to share information about.
 
 ## Azure Integration Services
-Projects using Azure Integration services for integration tasks between systems.
+Article about project implemented in Azure Integration services to integrate between two cloud-based systems.
 
+English:
 [Integration between Salesforce and Signet with Azure Integration Services](/Azure%20Logic%20Apps%20Pilot%20Project/)
 
-[Integration between Salesforce and Signet with Azure Integration Services](https://github.com/thorleifurb/thorleifurb.github.io/blob/master/Azure%20Logic%20Apps%20Pilot%20Project/README.md)
+Icelandic:
+[Samþætting milli Salesforce og Signet með Azure Integration Services](/Azure%20Logic%20Apps%20Pilot%20Project/README-is)
 
 ## StaffLocation
-Project that used for research on Integration Platform / API Management tool / JS Frontend.
-All components in used in project are Open Source except Microsoft SQL server Express that is used for database.
+Project that I used for research on Integration Platform / API Management tool / JS Frontend.
+All components in used in project are Open Source except Microsoft SQL server Express used for database.
 
-Project source is not public or intended as open source, so repository is not visible on my GitHub profile. Intrested parties can send request for further information.
+Project source is not public or intended as open source, so repository is not visible on my GitHub profile. Interested parties can send request for further information.
 
 ### Description and purpose
-Front end client that displays statistics about how much time/distance a given workplace employees would earn/lose on single workday, given that the workplace was located elsewhere in the neigbourhood.
+Front end client that displays statistics about how much time/distance a given workplace employees would earn/lose on single workday, given that the workplace was located elsewhere in the neighborhood.
 
-The front end client can also compare time from given point on map to (a) current workplace and (b) propose workplace.
+The front-end client can also compare time from given point on map to (a) current workplace and (b) propose workplace.
 The client shows all calculations based on driving, walking and cycling profiles provided by used routing machine.
 
 The thought is that all things are optimized for minimal cost but not necessary for employees. Why not try to optimize location of business to save employees valuable time in transportation. Optimal location can also save a lot of Co2 emission in employee car usage.
-If business location does not require a walk in office for customers, this should of course be considered when deciding optimal location.
+If business location does not require a walk-in office for customers, this should of course be considered when deciding optimal location.
 
 ### Components used
 * Vue JS
@@ -48,4 +50,4 @@ If business location does not require a walk in office for customers, this shoul
 
 <hr>
 
-Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.
+> Copyright © 2020 Þorleifur Bjarnason, All Rights Reserved.
